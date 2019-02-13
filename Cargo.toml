@@ -1,0 +1,11 @@
+[package]
+name = "aoc"
+version = "0.1.0"
+authors = ["Nick Cameron <nrc@ncameron.org>"]
+edition = "2018"
+
+[dependencies]
+darkly = { path = "../version-controlled/darkly/scanner" }
+
+[patch.crates-io]
+darkly-macros = { path = "../version-controlled/darkly/macros" }
